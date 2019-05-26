@@ -52,7 +52,19 @@ export default class App extends Component<Props> {
             this.playerRecorder.startPlay();
             Alert.alert("file://" + RNFS.MainBundlePath);
           }}
-          title="Start"
+          title="Play Reference"
+        />
+        <Button
+          onPress={() => {
+            this.playerRecorder.startRecord();
+          }}
+          title="Record"
+        />
+        <Button
+          onPress={() => {
+            this.playerRecorder.stopRecord();
+          }}
+          title="Stop"
         />
       </View>
     );

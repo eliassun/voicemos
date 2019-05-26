@@ -3,6 +3,7 @@ package com.voicemos;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+import com.kevinresol.react_native_sound_recorder.RNSoundRecorderPackage;
 import com.rnfs.RNFSPackage;
 import com.johnsonsu.rnsoundplayer.RNSoundPlayerPackage;
 import com.facebook.react.ReactNativeHost;
@@ -25,6 +26,7 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+            new RNSoundRecorderPackage(),
             new RNFSPackage(),
             new RNSoundPlayerPackage()
       );

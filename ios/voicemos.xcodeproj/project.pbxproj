@@ -39,6 +39,7 @@
 		2DACF0BA229B0FF2005F1C3D /* or105.wav in Resources */ = {isa = PBXBuildFile; fileRef = 2DACF0B9229B0FF2005F1C3D /* or105.wav */; };
 		2DCD954D1E0B4F2C00145EB5 /* voicemosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* voicemosTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		3D3D02A888794FBCADB4A8B2 /* libRNSoundRecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF43A1792CC64AF685AA6816 /* libRNSoundRecorder.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
 		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
@@ -185,6 +186,13 @@
 			proxyType = 2;
 			remoteGlobalIDString = 6456441F1EB8DA9100672408;
 			remoteInfo = "RNFS-tvOS";
+		};
+		2DACF0F5229B16D2005F1C3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2E23AF948BCF4207B0DDEAFF /* RNSoundRecorder.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNSoundRecorder;
 		};
 		2DF0FFDE2056DD460020B375 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -366,12 +374,14 @@
 		2D02E4901E0B4A5D006451C7 /* voicemos-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "voicemos-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DACF0B9229B0FF2005F1C3D /* or105.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = or105.wav; sourceTree = "<group>"; };
+		2E23AF948BCF4207B0DDEAFF /* RNSoundRecorder.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSoundRecorder.xcodeproj; path = "../node_modules/react-native-sound-recorder/ios/RNSoundRecorder.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		A13196F58DED48DAA2609232 /* libRNFS.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFS.a; sourceTree = "<group>"; };
 		AAE483EE3D2640D59A357D33 /* libRNSoundPlayer.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSoundPlayer.a; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		CF43A1792CC64AF685AA6816 /* libRNSoundRecorder.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSoundRecorder.a; sourceTree = "<group>"; };
 		D67A035DB9444870BAE9E76D /* RNFS.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFS.xcodeproj; path = "../node_modules/react-native-fs/RNFS.xcodeproj"; sourceTree = "<group>"; };
 		ED026E2DE4974C3F9616CC29 /* RNSoundPlayer.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNSoundPlayer.xcodeproj; path = "../node_modules/react-native-sound-player/ios/RNSoundPlayer.xcodeproj"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -406,6 +416,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				1532540B5B994DA081ED3427 /* libRNSoundPlayer.a in Frameworks */,
 				1A3673207487429199F7D2E0 /* libRNFS.a in Frameworks */,
+				3D3D02A888794FBCADB4A8B2 /* libRNSoundRecorder.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +587,7 @@
 			children = (
 				AAE483EE3D2640D59A357D33 /* libRNSoundPlayer.a */,
 				A13196F58DED48DAA2609232 /* libRNFS.a */,
+				CF43A1792CC64AF685AA6816 /* libRNSoundRecorder.a */,
 			);
 			name = "Recovered References";
 			sourceTree = "<group>";
@@ -603,6 +615,14 @@
 				2DACF0B9229B0FF2005F1C3D /* or105.wav */,
 			);
 			path = snd;
+			sourceTree = "<group>";
+		};
+		2DACF0F2229B16D2005F1C3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DACF0F6229B16D2005F1C3D /* libRNSoundRecorder.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -640,6 +660,7 @@
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
 				ED026E2DE4974C3F9616CC29 /* RNSoundPlayer.xcodeproj */,
 				D67A035DB9444870BAE9E76D /* RNFS.xcodeproj */,
+				2E23AF948BCF4207B0DDEAFF /* RNSoundRecorder.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -855,6 +876,10 @@
 					ProductGroup = 2DACF079229B06A0005F1C3D /* Products */;
 					ProjectRef = ED026E2DE4974C3F9616CC29 /* RNSoundPlayer.xcodeproj */;
 				},
+				{
+					ProductGroup = 2DACF0F2229B16D2005F1C3D /* Products */;
+					ProjectRef = 2E23AF948BCF4207B0DDEAFF /* RNSoundRecorder.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -991,6 +1016,13 @@
 			fileType = archive.ar;
 			path = libRNFS.a;
 			remoteRef = 2DACF0B7229B0C7D005F1C3D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DACF0F6229B16D2005F1C3D /* libRNSoundRecorder.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNSoundRecorder.a;
+			remoteRef = 2DACF0F5229B16D2005F1C3D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		2DF0FFDF2056DD460020B375 /* libjsinspector.a */ = {
@@ -1290,12 +1322,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-sound-recorder/ios",
 				);
 				INFOPLIST_FILE = voicemosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1318,12 +1352,14 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-sound-recorder/ios",
 				);
 				INFOPLIST_FILE = voicemosTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1347,6 +1383,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-sound-recorder/ios",
 				);
 				INFOPLIST_FILE = voicemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1370,6 +1407,7 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-sound-recorder/ios",
 				);
 				INFOPLIST_FILE = voicemos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1400,11 +1438,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-sound-recorder/ios",
 				);
 				INFOPLIST_FILE = "voicemos-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1436,11 +1476,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-sound-recorder/ios",
 				);
 				INFOPLIST_FILE = "voicemos-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1471,11 +1513,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-sound-recorder/ios",
 				);
 				INFOPLIST_FILE = "voicemos-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
@@ -1506,11 +1550,13 @@
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-sound-player/ios",
 					"$(SRCROOT)/../node_modules/react-native-fs/**",
+					"$(SRCROOT)/../node_modules/react-native-sound-recorder/ios",
 				);
 				INFOPLIST_FILE = "voicemos-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
